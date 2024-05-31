@@ -1,0 +1,8 @@
+name: AntiBuild
+version: 1.0
+main: org.critical.antibuild.AntiBuild
+api-version: 1.18
+commands:
+  antibuild:
+    description: AntiBuild plugin commands
+    usage: /<command> <lock|unlock|reload> [world]
